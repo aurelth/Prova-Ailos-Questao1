@@ -49,15 +49,15 @@ Entre um valor para saque: 298.00
 Dados da conta atualizados:
 Conta 5139, Titular: Elza Soares, Saldo: $ -1.50
 
-Tecnologias e Padrões
-.NET 6: Utiliza a versão mais recente do framework .NET com a estrutura de código simplificada.
+Tecnologias e Padrões: 
+Utiliza uma das versões mais recentes do .NET (.NET 6) com a estrutura de código simplificada.
 Boas práticas de programação: Encapsulamento de dados, controle de acesso e validações de entrada.
 Configuração de Cultura: Usa CultureInfo("en-US") para garantir que o separador decimal seja o ponto (.), tanto em entradas quanto em saídas.
 
-Como Executar
+Como Executar: 
 Clone o repositório no GitHub
 Navegue até a pasta do projeto: cd nome-do-repositorio
 Compile e execute o projeto: dotnet run
 
-Observações
+Observações: 
 O código foi implementado utilizando uma estrutura de código simplificada do .NET 6 e segue padrões de encapsulamento para proteger o saldo e o número da conta contra alterações indesejadas.
