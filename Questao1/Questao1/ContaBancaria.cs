@@ -26,5 +26,17 @@ namespace Questao1
         {
             NomeTitular = novoNome;
         }
+
+        public void Depositar(double valor)
+        {
+            if (valor > 0)
+            {
+                Saldo += valor;
+            }
+            else
+            {
+                Console.WriteLine("O valor do depósito deve ser positivo.");
+            }
+        }
     }
 }
