@@ -38,5 +38,22 @@ namespace Questao1
                 Console.WriteLine("O valor do depósito deve ser positivo.");
             }
         }
+
+        public void Sacar(double valor)
+        {
+            if (valor > 0)
+            {
+                Saldo -= valor + TaxaSaque;
+            }
+            else
+            {
+                Console.WriteLine("O valor do saque deve ser positivo.");
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"Conta {NumeroConta}, Titular: {NomeTitular}, Saldo: $ {Saldo:F2}";
+        }
     }
 }
