@@ -55,7 +55,7 @@ Boas práticas de programação: Encapsulamento de dados, controle de acesso e v
 Configuração de Cultura: Usa CultureInfo("en-US") para garantir que o separador decimal seja o ponto (.), tanto em entradas quanto em saídas.
 
 Como Executar
-Clone o repositório: git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Clone o repositório no GitHub
 Navegue até a pasta do projeto: cd nome-do-repositorio
 Compile e execute o projeto: dotnet run
 
