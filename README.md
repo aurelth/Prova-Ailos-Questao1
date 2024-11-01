@@ -1,4 +1,4 @@
-Sistema de Cadastro de Contas Bancárias
+Sistema de Cadastro de Contas Bancárias: 
 Este programa, desenvolvido em .NET 6, simula o sistema de cadastro e gerenciamento de contas bancárias para uma instituição financeira. Ele permite que o usuário cadastre novas contas, realize depósitos e saques, e visualize o saldo atualizado após cada operação.
 
 Funcionalidades
